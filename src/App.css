@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(135deg, #fceabb, #f8b500); /* Warm, sunny gradient */
+  font-family: 'Comic Neue', cursive, sans-serif; /* Playful font */
+  margin: 0;
+  padding: 0;
+}
+
+.comparisons-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #e91e63; /* Bright pink */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 2.8em;
+  margin-bottom: 30px;
+}
+
+.comparison-section {
+  border: 4px dashed #ff9800; /* Orange dashed border */
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgba(255, 245, 230, 0.8); /* Light peach background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comparison-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  color: #3f51b5; /* Deep blue */
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  text-decoration: underline wavy #ffeb3b; /* Wavy yellow underline */
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.features-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.features-list li {
+  background-color: rgba(224, 242, 255, 0.7); /* Light blue */
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.features-list li:hover {
+  background-color: rgba(200, 230, 255, 0.9);
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #777;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.error {
+  color: #d32f2f; /* Red */
+}
